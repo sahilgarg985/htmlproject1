@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+      
+      <h2>Contact Me:</h2>
+      <hr size="3" noshade>
+      <h4>Ph.No.</h4>
+      <p1>7814882996</p1>
+
+      <h4>Email</h4>
+      <p1>sahil.rtm33@gmail.com</p1>
+      <br>
+      <hr size="3" noshade>
+
+      <!-- forms allow us to input data from the user -->
+      <!-- radio acts as a button to switch on or off -->
+      <!-- action tells what will happen when we submit form -->
+      <!-- enctype text/plain displays data in plain text in email
+      name in input tag will show in email against the data type and value you entered -->
+    
+      <h3>Suggestions:</h3>
+
+      <form action="mailto: sahil.rtm33@gmail.com" method = "post" enctype="text/plain">
+        <label>Your name:</label>
+        <input type="text" name="yourName">
+        <br>
+        <br>
+        <label for="">Fav color: </label>
+        <input type="color" name="yourColor">
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <input type="email" name="yourEmail">
+        <br>
+        <br>
+        <label for="">Password:</label>
+        <input type="password" name="yourPassword">
+        <br>
+        <br>
+        <label for="">Your message:</label>
+        <br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="">Do you want to sign up to email list?</label>
+        <input type="checkbox" name="yourCheckbox">
+        <br>
+        <br>
+        <label for="">Select range:</label>
+        <input type="range" name="yourRange">
+        <br>
+        <br>
+        <label for="">Select date:</label>
+        <input type="date" name="yourDate">
+        <br>
+        <br>
+        <label for="">Select radio:</label>
+        <input type="radio" name="yourRadio">
+        <br>
+        <br>
+        <label for="">Select file:</label>
+        <input type="file" name="yourFile">
+        <br>
+        <br>
+        <input type="submit" name="yourSubmit">
+      </form>
+
+  </body>
+</html>

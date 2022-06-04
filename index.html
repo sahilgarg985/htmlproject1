@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- heading contains data about the site like title and all
+    meta contains meta data about the site, the charset it uses and all -->
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahil's Personal Site</title>
+  </head>
+
+    <!-- The main elements are contained inside body -->
+    <!-- h1,h2...h6 are sizes of different headings
+    em is better than i as it stores that this text is important whereas i is just a visual representation
+    similarly strong is better than b tag
+    p is used to put that information in a single paragraph
+    br is used to start from a new line or to leave a line
+    hr is used to add a horizontal line
+    size and noshades are further attributes of hr tags
+    ul is unordered list
+    ol is ordered list -->
+
+    <!-- in img, src is source, we can add any image url from internet or local directory, alt is the text for the image in case image is not displayed
+    helps in indexing image and searching it online, basically gives it a name -->
+
+    <!-- a tag provides hyperlink, href attribute contains link -->
+    <!-- we make the starting into table to get a particular layout -->
+
+  <body>
+
+    <table cellspacing="20">
+      <tr>
+        <td><img src = "Sahil.jpg" alt="Sahil's Profile Pic"></td>
+        <td>
+          <h1>Sahil Garg</h1>
+          <p><em>Founder and CTO of <strong><a href="https://www.appbrewery.co/p/web-development-course-resources/">The App Brewery</a></strong></p></em></p>
+          <p>I am an IOS and Web developer. I love coffee and brew my own beer.<br>I love to play guitar.</p></td>
+      </tr>
+    </table>
+    
+    
+    <hr size="3" noshade>
+    
+    <h3>Books and Teaching</h3>
+    <ul>
+        <li>The complete ios app deb bootcamp</li>
+        <li>Web dev</li>
+    </ul>
+    <hr size="3" noshade>
+    <h3><a href="hobbies.html">My hobbies</a></h3>
+    <ol>
+        <li>Playing Guitar</li>
+        <li>Singing</li>
+        <li>Coding</li>
+    </ol>
+    <hr size="3" noshade>
+
+    <h3>Work Experiences</h3>
+
+    <!-- We can create border and colours for html but it is not recommened as html is used for structure
+    and for design we use CSS -->
+    <!-- By default there is no borders or colours -->
+
+
+    <!-- here heads and body are put in different tags to make brower or CSS know which is head and which is body and which is footer to work differently on them -->
+    
+    <!-- tr is used for table rows
+    there is no table columns, it is only structured in rows -->
+    <!-- cellspacing used for spacing columns and rows -->
+    <!-- th is for header data
+    td is for table data -->
+    
+    <!-- footers are used because Browsers can use these elements to enable scrolling of the table body independently of the header and footer. -->
+
+    <table border="1">
+
+      <thead>
+        <tr>                                
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>2010-2013</td>
+          <td>Lead Developer at Tempo App</td>
+        </tr>
+
+        <tr>
+          <td>2015</td>
+          <td>Researcher at ISRO</td>
+        </tr>
+        
+      </tbody>
+
+      <tfoot>
+      </tfoot>
+
+    </table>
+
+    <hr size="3" noshade>
+    
+    <h3>Skills</h3>
+
+    <!-- tables inside a table to create seperate columns as can we seen in the website -->
+    
+    <table cellspacing="20">
+    
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>C++</td>
+              <td>✨✨✨✨✨</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>✨✨✨✨</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>✨✨✨</td>
+            </tr>
+          </table>
+        </td>
+
+        <td>
+          <table>
+            <tr>
+              <td>English</td>
+              <td>✨✨✨✨</td>
+            </tr>
+            <tr>
+              <td>Punjabi</td>
+              <td>✨✨✨✨✨</td>
+            </tr>
+            <tr>
+              <td>Hindi</td>
+              <td>✨✨✨</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    
+
+    </table>
+    
+    
+    
+    <hr size="4" noshade>
+
+
+
+    <h4><a href="contact.html">Contact Me</a></h4> 
+    <hr size="4" noshade>
+  </body>
+
+
+</html>
